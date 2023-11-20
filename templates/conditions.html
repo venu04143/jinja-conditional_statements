@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>nested-if in jinja opertions </h1>
+        {% if a > b%}
+           {% if a > c %}
+              <h1> a is big </h1>
+            {% else %}
+              <h1> c is big </h1>
+            {% endif %}
+        {% else %}
+           {% if b > a %}
+              <h1> b is big </h1>
+            {% else %}
+              <h1> c is big </h1>
+            {% endif %}
+        {% endif%}
+              
+        
+
+        
+    </center>
+</body>
+</html>
